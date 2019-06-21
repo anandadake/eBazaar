@@ -1,0 +1,13 @@
+<div class="docs-component-category-list">
+  <a routerLink = '/stores' *ngFor="let val of data" class="docs-component-category-list-item ng-star-inserted" >
+    <mat-card class="docs-component-category-list-card mat-card" (click)="setCity(val.key)" >
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title class="mat-card-title">{{val.key}}</mat-card-title>
+        <mat-card-subtitle class="mat-card-title">Actual : {{val.actual}}</mat-card-subtitle>
+        <mat-card-subtitle class="mat-card-title">Planed : {{val.planed}}</mat-card-subtitle>
+      </mat-card-header>
+       <mat-card-content class="docs-component-category-list-card-summary mat-card-content">Planed Vs Actual Sales</mat-card-content>
+    </mat-card>
+ </a>
+</div>

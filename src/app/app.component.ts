@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'eBazaar';
+
+  public startDate:Date ;
+  public endDate:Date ;
+  
+  valuechange(newValue:Date) {
+    var str:String = newValue.toDateString().toString();
+    console.log(str);
+    var arr = str.split(" ");
+    console.log(arr);
+    console.log(this.startDate);
+    console.log(this.endDate);
+  }
 }

@@ -2,3 +2,64 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.menu-spacer {
+    flex: 1 1 auto;
+  }
+  .spacer {
+    padding-right: 30px;
+    padding-left : 30px;
+  }
+  .mat-list-item{
+    text-align: center;
+  }
+  .list-item-content {
+    display: none !important;
+  }
+
+  .mat-card {
+    transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    background: #fff;
+    color: rgba(0,0,0,.87);
+    cursor: pointer; 
+    margin: 5px;
+}
+.mat-card-title{
+  font-size: 20px;
+}
+.mat-button-toggle, .mat-card {
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+.docs-component-category-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.docs-component-category-list-item, 
+.docs-component-category-list-item:active,
+.docs-component-category-list-item:focus, 
+.docs-component-category-list-item:hover 
+{
+  text-decoration: none;
+}
+.example-header-image{
+  background-color: aqua;
+}
+
+.example-red{
+  background-color: red;
+}
+.example-orange{
+  background-color: orange;
+}
+.example-green{
+  background-color: green;
+}
