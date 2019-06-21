@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "AIzaSyC3a7O76iyEa32Ue8EGVJxeS5LTw0etXeo",
-    authDomain: "ebazaar-14ffc.firebaseapp.com",
-    databaseURL: "https://ebazaar-14ffc.firebaseio.com",
-    projectId: "ebazaar-14ffc",
-    storageBucket: "ebazaar-14ffc.appspot.com",
-    messagingSenderId: "294453134358",
-    appId: "1:294453134358:web:217cfcb210b79bdc"
+    apiKey: "******************************",
+    authDomain: "******-14ffc.firebaseapp.com",
+    databaseURL: "https://******-14ffc.firebaseio.com",
+    projectId: "******-14ffc",
+    storageBucket: "******-14ffc.appspot.com",
+    messagingSenderId: "************",
+    appId: "1:*************:web:****************"
   }
 };
 
